@@ -187,6 +187,55 @@
         </div>
     </div>
 </section>
+ <!-- section : gallery -->
+<section id="gallery" class="section section-gallery scrollspy">
+    <div class="container">
+        <h4 class="center">
+            <span class="teat-text">Photo</span>Gallery
+        </h4>
+        <div class="row">
+            <div class="col s12 m3">
+                <img src="https://source.unsplash.com/1600x900/?beach" alt="" class="materialboxed responsive-img">
+           </div>
+            <div class="col s12 m3">
+               <img src="https://source.unsplash.com/1600x900/?travel" alt="" class="materialboxed responsive-img">
+            </div>
+            <div class="col s12 m3">
+                <img src="https://source.unsplash.com/1600x900/?nature" alt="" class="materialboxed responsive-img">
+            </div>
+            <div class="col s12 m3">
+                <img src="https://source.unsplash.com/1600x900/?beach,travel" alt="" class="materialboxed responsive-img">
+            </div>
+       </div>
+       <div class="row">
+        <div class="col s12 m3">
+            <img src="https://source.unsplash.com/1600x900/?water" alt="" class="materialboxed responsive-img">
+       </div>
+        <div class="col s12 m3">
+           <img src="https://source.unsplash.com/1600x900/?building" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+            <img src="https://source.unsplash.com/1600x900/?trees" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+            <img src="https://source.unsplash.com/1600x900/?cruise" alt="" class="materialboxed responsive-img">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m3">
+            <img src="https://source.unsplash.com/1600x900/?beaches" alt="" class="materialboxed responsive-img">
+       </div>
+        <div class="col s12 m3">
+           <img src="https://source.unsplash.com/1600x900/?traveling" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+            <img src="https://source.unsplash.com/1600x900/?bridge" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+            <img src="https://source.unsplash.com/1600x900/?boat,travel" alt="" class="materialboxed responsive-img">
+        </div>
+      </div>
+</section>
 
        
 
@@ -217,7 +266,11 @@
             "Jamaica":null,
             "Europe":null,
         }
-    })
+    });
+    //material boxed
+    const mb = document.querySelectorAll('.materialboxed');
+    M.Materialbox.init(mb , {});
+
 
    </script>         
   </body>
