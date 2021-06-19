@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>TrevelVille</title>
+  </head>
+
+  <body>
+<div class="navbar-fixed">
+ <nav class="teal">
+    <div class="container">
+            
+       <div class="nav-wrapper">
+           <a href="#" class="brand-logo">TrevelVille </a>
+           <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+               <i class="material-icons">menu</i>
+           </a>
+           <ul class="right hide-on-med-and-down">
+               <li><a href="#home">Home</a></li>
+               <li><a href="#search">Search</a></li>
+               <li><a href="#popular">Popular-places</a></li>
+               <li><a href="#gallery">Gallery</a></li>
+               <li><a href="#contact">Contact</a></li>
+           </ul>
+           
+        </div>
+   </div>
+ </nav>
+</div>
+<ul class="sidenav" id="mobile-nav">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#search">Search</a></li>
+    <li><a href="#popular">Popular-places</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+       
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   <script>
+       //sidenav
+       const sidenav = document.querySelector('.sidenav');
+       M.Sidenav.init(sidenav, {});
+   </script>         
+  </body>
+</html>
+      
